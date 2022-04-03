@@ -194,6 +194,22 @@
     <Compile Include="Migrations\202203210105402_CreateTableCourse.Designer.cs">
       <DependentUpon>202203210105402_CreateTableCourse.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202204030738493_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\202204030738493_AddNameColumnToApplicationUser.designer.cs">
+      <DependentUpon>202204030738493_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204030740290_AddNameColumnToApplicationUser1.cs" />
+    <Compile Include="Migrations\202204030740290_AddNameColumnToApplicationUser1.designer.cs">
+      <DependentUpon>202204030740290_AddNameColumnToApplicationUser1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204030742056_AddAttendance.cs" />
+    <Compile Include="Migrations\202204030742056_AddAttendance.designer.cs">
+      <DependentUpon>202204030742056_AddAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204030743494_AddFollowingsTable.cs" />
+    <Compile Include="Migrations\202204030743494_AddFollowingsTable.designer.cs">
+      <DependentUpon>202204030743494_AddFollowingsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -323,6 +339,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203210105402_CreateTableCourse.resx">
       <DependentUpon>202203210105402_CreateTableCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204030738493_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>202204030738493_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204030740290_AddNameColumnToApplicationUser1.resx">
+      <DependentUpon>202204030740290_AddNameColumnToApplicationUser1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204030742056_AddAttendance.resx">
+      <DependentUpon>202204030742056_AddAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204030743494_AddFollowingsTable.resx">
+      <DependentUpon>202204030743494_AddFollowingsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
